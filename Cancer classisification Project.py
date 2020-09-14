@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 plt.margins(0, 0)
 
-df = pd.read_csv('TensorFlow_FILES/DATA/cancer_classification.csv')
+df = pd.read_csv('cancer_classification.csv')
 
 # Setting up Tensorboard
 log_directory = 'logs\\ft'
