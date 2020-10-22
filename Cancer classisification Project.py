@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.callbacks import EarlyStopping, TensorBoard
+from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.models import Sequential
 
